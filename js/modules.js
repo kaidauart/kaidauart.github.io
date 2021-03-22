@@ -24,7 +24,7 @@ export function setup() {
 }
 
 const HomePage = el("div#page.center", [
-    el("div", "Artist Statement:"), test//
+    el("div", "Artist Statement:"), //
 ])
 
 const PortfolioPage = new Portfolio()
