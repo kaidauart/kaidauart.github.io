@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="css/menu.css" />
+
+        <script type="module">
+            import { setup } from "./js/modules.js"
+
+            setup()
+        </script>
+    </head>
+
+    <body>
+        <div class="banner">
+            <div class="title">
+                <div>
+                    <h1>Kaida Portfolio</h1>
+                    <div class="underline"></div>
+                </div>
+            </div>
+            <div id="menu" class="menu">
+                <a id="homeButton">
+                    <button class="button button3">Home</button>
+                </a>
+                <a id="portfolioButton">
+                    <button class="button button3">Portfolio</button>
+                </a>
+                <a id="contactButton">
+                    <button class="button button3">Contact</button>
+                </a>
+            </div>
+        </div>
+
+        <div id="centerContent" class="centerContent">
+            <!-- Put whatever you want on your home page here -->
+            <div id="page" />
+        </div>
+    </body>
+</html>
