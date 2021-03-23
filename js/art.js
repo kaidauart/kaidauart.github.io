@@ -3,32 +3,32 @@ import { el } from "./redom.js";
 export default [
   el("div", [
     el("img.width", { src: "./art/AtNoon.jpg" }),
-    el("p", "explaination"),
+    el("p", "A Nap at Noon, Photography, 4608x2176, A study of how light interacts with scenery, and how clarity affects a composition"),
   ]),
 
   el("div", [
     el("img.width", { src: "./art/water-bubbles.jpg" }),
-    el("p", "explaination"),
+    el("p", "Liquid Dynamics Study, Photography, 3699x1747, A study in how liquid ineteracts with objects and with itself "),
   ]),
 
   el("div", [
     el("img.width", { src: "./art/Heaven.png" }),
-    el("p", "explaination"),
+    el("p", "Heaven, Digital Illustration, 5600x3150, A study in both background design, as well as how light interacts with said designs."),
   ]),
 
   el("div", [
     el("img.width", { src: "./art/CelestialMikaya.png" }),
-    el("p", "explaination"),
+    el("p", "Looking down from Heaven, Digital Illustration, 5600x3150,  A practice in how hair flows in windy condition, as well as how light interacts with translucent materials."),
   ]),
 
   el("div", [
     el("embed.width height", { src: "./art/bruh.pdf" }),
-    el("p", "explaination"),
+    el("p", "Bruh, Written Text, 3 pages, A study in close, platonic relationships, and how life in modern day affects ones psyche"),
   ]),
 
   el("div", [
     el("embed.width height", { src: "./art/INeverLeaveYouBehind.pdf" }),
-    el("p", "explaination"),
+    el("p", "I'll never leave you behind, Written Text, 3 pages, a study in feelings of love, and how to navigate unrequited feelings"),
   ]),
 
   el("div", [
@@ -36,12 +36,12 @@ export default [
       controls: "controls",
       src: "./art/ModernSoundscape.wav",
     }),
-    el("p", "explaination"),
+    el("p", "Modern Soundscape, Recorded and Edited Audio, 1:12, An attempt to capture the sounds of modern day America, and how we navigate through them."),
   ]),
 
   el("div", [
     el("audio.width", { controls: "controls", src: "./art/Piano.mp3" }),
-    el("p", "explaination"),
+    el("p", "Piano, Generated Audio, 1:46, A study in algorithm generated art, and how AI created art can influence art creation in the future."),
   ]),
 
   el("div", [
@@ -53,7 +53,7 @@ export default [
       },
       el("button.button button3 width", "Link")
     ),
-    el("p", "explaination"),
+    el("p", "Cube, Remixed Code, A practice in how open source code and by extension, remix culture, affects art"),
   ]),
 
   el("div", [
@@ -62,6 +62,6 @@ export default [
       { href: "https://skfb.ly/6HHyy" },
       el("button.button button3 width", "Link")
     ),
-    el("p", "explaination"),
+    el("p", "The CIA, Edited 3D Model, A practice in how one can use existing art assets to create a new piece of art with new meaning."),
   ]),
 ];
